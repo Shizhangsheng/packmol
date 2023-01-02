@@ -1,0 +1,19 @@
+tolerance 2.0
+filetype pdb
+output mix.pdb
+
+structure water.pdb
+  number 1200
+  inside sphere 0. 0. 0. 20.
+end structure
+
+structure SDS.pdb
+  number 100
+atoms 42
+  inside sphere 0. 0. 0. 15.
+end atoms
+atoms 32
+outside sphere 0. 0. 0. 30.
+end atoms
+end structure
+

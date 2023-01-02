@@ -1,0 +1,20 @@
+tolerance 2.0
+#add_box_sides 1.2
+filetype pdb
+output N3-COF_H2O.pdb
+
+structure H2O.pdb
+  number 385
+  inside box 0. 0. 1. 25.5091 14.7277 13.
+end structure
+
+structure H2O.pdb
+  number 385
+  inside box 0. 0. 17. 25.5091 14.7277 29.
+end structure
+
+#structure N3-COF.pdb
+# number 1
+#  center 
+# fixed 25.5091 14.7277 7.5 0. 0. 0.
+#end structure

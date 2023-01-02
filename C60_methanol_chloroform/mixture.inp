@@ -1,0 +1,21 @@
+tolerance 2.0
+filetype pdb
+output mix.pdb
+
+structure chloroform.pdb
+  number 200
+  inside box 0. 0. 0. 40. 40. 20.
+  inside sphere 20. 20. 20. 15.
+end structure
+
+structure methanol.pdb
+  number 200
+  inside box 0. 0. 20. 40. 40. 40.
+  inside sphere 20. 20. 20. 15.
+end structure
+
+structure C60.pdb
+  number 1
+  center 
+  fixed 20. 20. 20. 0. 0. 0.
+end structure

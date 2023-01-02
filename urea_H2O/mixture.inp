@@ -1,0 +1,16 @@
+# A mixture of water and urea
+#
+
+tolerance 2.0
+filetype pdb 
+output mixture.pdb
+
+structure H2O.pdb
+  number 1000
+  inside box 0. 0. 0. 40. 40. 40.
+end structure
+
+structure urea.pdb
+  number 400
+  inside box 0. 0. 0. 40. 40. 40.
+end structure
